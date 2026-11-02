@@ -1,0 +1,13 @@
+{
+  "name": "hn-tube",
+  "private": true,
+  "type": "module",
+  "description": "The most upvoted videos on Hacker News over the past year, sorted by category and popularity.",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "serve": "python3 -m http.server 8090"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
